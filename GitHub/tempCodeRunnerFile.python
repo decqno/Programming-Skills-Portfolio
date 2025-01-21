@@ -1,0 +1,10 @@
+#Main Screen
+menu_categories = {
+    1 : 'Mix Your Own Chocolate',
+    2 : 'Dark Chocolate',
+    3 : 'White Chocolate',
+    4 : 'Standard Chocolate'
+}
+
+for menu, categ in menu_categories:
+    print(f"Enter {menu} if you want {categ}")
